@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Reports</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" id="cityInput" placeholder="Please enter city" spellcheck="false">
+            <button onclick="checkWeather()">
+                <img src="Search-Icon-pic.png" alt="Search">
+            </button>
+        </div>
+        <div class="weather">
+            <img src="Cloud-Rain.jpg" class="weather-icon" alt="Weather Icon">
+            <h1 class="temp">10°C</h1>
+            <h2 class="city">New York</h2>
+            <div class="details">
+                <div>
+                    <p class="humidity">50%</p>
+                    <p>Humidity</p>
+                </div>
+                <div>
+                    <p class="wind">15 km/h</p>  
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div><br><br>
+        <div>
+            <img src="Temp-ranges.jpg" class="Temp-Icon"  alt="Temp Icon">
+        </div>
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>
